@@ -6,8 +6,14 @@ app = Flask(__name__)
 csrf = CSRFProtect(app)
 
 @app.route("/")
-def index():
-    return render_template('index.html')
+def pagina_inicial():
+    return '''
+    <html>
+        <head><title> App Fiap Fase 5</title></head>
+        <body> Olá Mundo!</body>
+
+    </html>
+    '''
 
 if __name__ == '__main__':
     app.run()
