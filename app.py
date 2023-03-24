@@ -7,7 +7,7 @@ csrf = CSRFProtect(app)
 
 @app.route("/")
 def pagina_inicial():
-    return"Entrega fase 5 Versão final"
+    return"Entrega fase 5 Para avaliação - versão final"
 
 if __name__ == '__main__':
     app.run()
