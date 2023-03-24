@@ -11,7 +11,6 @@ def pagina_inicial():
     <html>
         <head><title> App Fiap Fase 5</title></head>
         <body> Olá Mundo!</body>
-
     </html>
     '''
 
